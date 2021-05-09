@@ -11,16 +11,4 @@ function delete_click(name, nameOrig){
         });
     });
 }
-
-$.get('ajax/test.html', function(data) {
-    2
-      $('.result').html(data);
-    3
-      alert('Загрузка завершена.');
-    4
-    });
-
-    $.post( "ajax/test.html", function( data ) {
-        $( ".result" ).html( data );
-      });
     
